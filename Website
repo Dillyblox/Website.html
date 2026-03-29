@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Downloadable Website</title>
+    <titleMy website</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -42,6 +42,75 @@
     <div class="content">
         <h2>About this website</h2>
         <p>This is a basic example of a downloadable website. You can modify and expand it as needed.</p>
+    </div>
+
+    <footer>
+        <p>Created by Your Name</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website with Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .content {
+            margin: 20px;
+        }
+        .content h2 {
+            color: #333;
+        }
+        .search-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .search-bar {
+            padding: 10px;
+            width: 80%;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <div class="search-container">
+        <form action="https://www.google.com/search" method="get">
+            <input type="text" class="search-bar" name="q" placeholder="Search the web...">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    <div class="content">
+        <h2>About this website</h2>
+        <p>This website includes a simple search bar that will search the web using Google.</p>
     </div>
 
     <footer>
